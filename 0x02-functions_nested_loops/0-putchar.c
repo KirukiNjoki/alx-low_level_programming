@@ -1,11 +1,21 @@
 #!/bin/bash
-include <stdio.h>
-void main (){
-	int c;
-	c = getchar();
-	while (c != EOF) {
-		 putchar(c);
-		  c = getchar();
-	}
+include "main.h"
+/**
+ * main prints _putchar, followed by a new line
+ *Description: program that prints _putchar
+ *Return: 0
+ */
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('/n');
+	return (0);
 }
-return 0;
+
