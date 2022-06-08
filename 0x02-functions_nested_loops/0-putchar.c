@@ -1,19 +1,21 @@
-#include "main.h"
-/**
- * main - entry point
- *
- * print out _putchar followed by a newline
- *
- * Return: always 0 (Success)
- */
-int main (void)
-{
-	for ch[8] = "_putchar";
-	int m;
-	for (m = 0; m < 8; m++)
-		_putchar(ch[8]);
-	_putchar('/n');
+#include <stdio.h>
 
+/**
+ * main - prints a string "_putchar" string of characters"
+ *
+ * Return: 0
+ */
+
+int main(void)
+{
+	int i;
+	char myText[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		putchar(myText[i]);
+	}
+	putchar('\n');
 	return (0);
 }
 
