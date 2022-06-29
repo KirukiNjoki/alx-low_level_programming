@@ -1,1 +1,1 @@
-This is an executable readme
+ststic libraries
