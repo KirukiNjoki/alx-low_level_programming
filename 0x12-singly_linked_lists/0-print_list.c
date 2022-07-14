@@ -2,7 +2,7 @@
  * File: 0-print_list.c
  *
  */
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
